@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+font-family:'Lato', sans-serif;
+}
+ .offset:before{
+	 display: block;
+	 content: "";
+	 height: 6rem;
+
+ }
+
+ /*--------navbar start-------------*/
+.navbar {
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 750;
+letter-spacing: 0.2rem;
+background: rgba(0, 0, 0, 0.6)!important;
+padding: 20px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+  }
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+color: #b12f2f;
+}
+
+.heading-content {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	max-width: 100%;
+}
+
+.heading-content h5 {
+	font-size: 3em;
+	font-weight: 300;
+	color: rgb(223, 219, 219);
+	font-family: monospace;
+}
+
+.heading-content h1 {
+	font-size: 4em;
+	font-weight: bold;
+	color: rgb(204, 202, 202);
+    font-family: 'Montserrat', sans-serif;
+}
+ /*--------navbar end------------------------------*/
+
+  /*--------about start-------------*/
+
+#about {
+	min-height:600px;
+	margin-top:100px;
+	margin-left:40px;
+	margin-right:50px;
+}
+ 
+.img-fluid {
+    width: 100%;	
+}
+
+#about h2 {
+	color: dimgrey;
+	font-weight: bold;
+	font-size: 48px;   
+}
+
+#about p {
+	color: rgb(51, 51, 54);
+	text-align: left;	
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 25px;
+	
+}
+  
+ /*--------about end-------------------*/
+
+
+/*--------porfolio start---------*/
+
+#portfolio h1 {
+	color: rgb(80, 77, 77);
+	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#portfolio p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(51, 51, 54)
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+
+/*--------porfolio ---------*/
+
+
+
+
+/*--------contact start-----------------*/
+
+#contact h1 {   
+    font-size: 3em;
+	font-weight: bold;
+	color: dimgrey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*--------contact start---------*/
+
+
+
+/*-----footer start-------*/
+	
+footer {
+background-color: #646466;
+padding:40px;
+
+}
+
+
+/*--------footer end-------------------*/
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { device-aspect-ratio, device-width, device-height}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { height, width, grid, any hover }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { color,resolution }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { resolution,width }
+/**--------Media Query---------*/
+
