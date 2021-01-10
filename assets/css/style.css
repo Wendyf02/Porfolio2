@@ -1,20 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
 body {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-overflow-x: hidden;
-font-family:'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family:'Lato', sans-serif;
 }
- .offset:before{
+
+.offset:before{
 	 display: block;
 	 content: "";
 	 height: 6rem;
 
- }
+ } 
 
  /*--------navbar start-------------*/
+
 .navbar {
 text-transform: uppercase;
 font-size: 14px;
@@ -38,7 +41,10 @@ padding: 20px;
 .navbar-dark .navbar-nav .nav-link:hover{
 color: #b12f2f;
 }
+ /*--------navbar end------------------------------*/
+ 
 
+  /*--------heading content start------------------------------*/
 .heading-content {
 	position: absolute;
 	top: 40%;
@@ -59,9 +65,12 @@ color: #b12f2f;
 	color: rgb(204, 202, 202);
     font-family: 'Montserrat', sans-serif;
 }
- /*--------navbar end------------------------------*/
+ /*--------heading content end------------------------------*/
 
-  /*--------about start-------------*/
+
+
+
+/*--------about start-------------*/
 
 #about {
 	min-height:600px;
@@ -90,6 +99,46 @@ color: #b12f2f;
 }
   
  /*--------about end-------------------*/
+
+
+
+
+ /*---------swiper 3d---------*/
+ 
+ /* body {
+	position: relative;
+	height: 100%;
+  }
+
+  body {
+	background: #fff;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+  }
+
+  .swiper-container {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+  }
+
+  .swiper-slide {
+	background-position: center;
+	background-size: cover;
+  }  */
+
+
+/*---------swiper 3d---------*/
+
+
+
 
 
 /*--------porfolio start---------*/
@@ -141,7 +190,7 @@ padding:40px;
 
 
 
-// Extra small devices (portrait phones, less than 576px)
+/* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
@@ -154,6 +203,8 @@ padding:40px;
 @media (min-width: 992px) { color,resolution }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { resolution,width }
+@media (min-width: 1200px) { resolution,width } */
+
+
 /**--------Media Query---------*/
 
