@@ -32,18 +32,18 @@
     
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <title>Portfolio revised</title>
+  <title>Portfolio revised-used </title>
 
 </head>
 
-<body data-spy="sroll" data-target="#navbarResponsive">
+<body>
 
-    <div id="home">
-      </div>
+    <!-- <div id="home">
+      </div> -->
   
    <!-----navigation start--------->
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                      <a class="navbar-brand" href="#">Wendy Figueroa</a> 
                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                      <span class="navbar-toggler-icon"></span>
@@ -65,8 +65,32 @@
                       </li>
                      </ul>
                   </div>
-            </nav>
+            </nav> -->
 
+
+
+<div data-sticky-container>
+  <div id="sticky-container" class="top-bar" data-sticky data-options="marginTop:0;" style="width:100% ; height:80px">
+    <div class="top-bar-left">
+      <a id="top-bar-sticky-logo" class="top-bar-sticky-logo" href="#"><strong>Wendy Figueroa</strong></a>
+    </div>
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
+    <div class="top-bar-right" id="example-menu">
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div> 
     <!---------- End Nav ---------------------->
 
     <!-----Home--Roll page- 1 start------->
@@ -89,18 +113,23 @@
 
       <!-- -------------------home Roll 2 page start ----------------------------->
     <article> 
-        <div id="about" class="offset container"> 
+      <div id="about-me" class="container mt-3 mt-5"> 
+        <div class="post-heading text-center">
+        <h1 class="display-4 font-weight-bold">About Me</h1>
+        <hr class="w-50 mx-auto pb-5">
+        </div>
+        <!-- <div id="about" class="offset container"> 
           <div class="row"> 
               <div class="col-sm-12"> 
               </div>
-          </div>
+          </div> -->
               <br>
           <div id="about" class="row text-center">
             <div class="col-md-3"> 
                 <img src="./assets/images/IMG_8393.jpg" alt="about photo" >
                 </div>
                 <div class="col-md-9">
-                      <h2>About Me</h2>
+                      <!-- <h2>About Me</h2> -->
                       <br>
                       <p>
                         Hi my name is Wendy, I couldn't be happier on where my life 
@@ -126,23 +155,50 @@
         </div>
       </article>
 
-
-      <!-- Swiper -->
-<!-- <div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background-image:url(./assets/images/color\ 1a.jpg)"></div>
-    <div class="swiper-slide" style="background-image:url(./assets/images/color\ 5.jpg)"></div>
-    <div class="swiper-slide" style="background-image:url(./assets/images/color\ 6.jpg)"></div>
-    <div class="swiper-slide" style="background-image:url(./assets/images/color\ 7.jpg)"></div>
-    <div class="swiper-slide" style="background-image:url(./assets/images/colors\ 2.jpg)"></div>
-  </div> -->
-   <!-- Add Pagination-->
-  <div class="swiper-pagination"></div>
-   <!-- If we need navigation buttons -->
-   <!-- <div class="swiper-button-prev"></div>
-   <div class="swiper-button-next"></div>
-</div>  -->
-
+  <!-- -------------------Portfolio 2----------------------------->
+  <div id="resume" class="container mt-3 mt-5"> 
+    <div class="post-heading text-center">
+    <h1 class="display-4 font-weight-bold">Resume</h1>
+    <hr class="w-50 mx-auto pb-5">
+    </div>
+      
+  <div id="resume" class="portfolio-resume-scrolling-container row">
+    <div class="columns small-12 medium-5 portfolio-resume-overview">
+      <div class="portfolio-resume-overview-content">
+        <h3 class="portfolio-resume-name">Name</h3>
+        <p>I'm kind of awesome. No really.</p>
+        <a class="button primary expanded" href="#">Contact Me</a>
+      </div>
+    </div>
+    <div class="columns small-12 medium-7 portfolio-resume-scrolling">
+      <h3>SKILLS</h3>
+      <ul class="portfolio-resume-side-list">
+        <li>Foundation</li>
+        <li>Moar Foundation</li>
+        <li>SCSS</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+      </ul>
+      <h3>EXPERIENCE</h3>
+      <p>Look at all this amazing stuff that I've done!</p>
+      <ul>
+        <li>Just one damned thing</li>
+        <li>After another</li>
+        <li>Like history</li>
+        <li>One thing</li>
+        <li>After another</li>
+      </ul>
+      <h3>WORK</h3>
+      <p>I've done work too</p>
+      <ul>
+        <li>A Site</li>
+        <li>Another Site</li>
+      </ul>
+    </div>
+  </div>
+  
+  
        
  <!-- -------------------About--Roll- 2 page-- end --------------->
 
@@ -150,7 +206,7 @@
     <!-----------------------Portfolio images start----->
     <div style="margin-bottom: 150px;"></div>
 
-<section>
+<!-- <section>
   <div id="portfolio" class="container">
       <h1>Portfolio</h1><br>
       <div class="row">
@@ -168,41 +224,69 @@
           <p>City Blues</p> 
         </div>
       </div>
-    </div>
+    </div> -->
 
 
-
-<!-----middle break text --------------------------------->
-
-<div class="row " style="text-align:center">
-  <div class="column align-self-middle">
-    <div class="callout callout-hover-reveal"data-callout-hover-reveal>
-      <div class="callout-body">
-        <h2>Hover me</h2>
-        <p>I'll show you Bill Murray in the callout footer.</p>
+  <div id="Portfolio" class="container mt-3 mt-5"> 
+      <div class="post-heading text-center">
+      <h1 class="display-4 font-weight-bold">Portfolio</h1>
+      <hr class="w-50 mx-auto pb-5">
       </div>
-    </div>
+     <div class="row">
+         <div class="col-lg-4 col-md-6  col-12 pb-5">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6  col-12 pb-5">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6  col-12 pb-5">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+     </div> 
   </div>
-</div>
-
-<!-----middle break text end  --------->
-
-
 
 
 
 
 
  <!-----------------------contact start----->
- <div style="margin-bottom: 400px;"></div>
+ <div style="margin-bottom: 200px;"></div>
 
+ <div id="Contact" class="container mt-3 mt-5"> 
+  <div class="post-heading text-center">
+  <h1 class="display-4 font-weight-bold">Contact</h1>
+  <hr class="w-50 mx-auto pb-5">
+  </div>
 
-
-    <div id="contact" class="container w-50 mx-auto mt-5 mb-5"> 
+    <!-- <div id="contact" class="container w-50 mx-auto mt-5 mb-5"> 
       <div class="row">  </div>
       <div class="post-heading text-center">
       <h1 class="display-4 font-weight-bold">Contact</h1>
-      </div>
+      </div> -->
 
       <form action="/action_page.php">
       <div class="form-group">
@@ -224,6 +308,29 @@
         </form>
     </div>
   </div> 
+
+
+  <!-----middle break text --------------------------------->
+  <div style="margin-bottom: 100px;"></div>
+
+<div class="row " style="text-align:center">
+  <div class="column align-self-middle">
+    <div class="callout callout-hover-reveal"data-callout-hover-reveal>
+      <div class="callout-body">
+        <h2>Hover me</h2>
+        <p>I'll show you Bill Murray in the callout footer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----middle break text end  --------->
+
+
+
+
+
+
 
 
 
