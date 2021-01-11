@@ -16,34 +16,84 @@ body {
 
 } 
 
+/*------sticky nav--------*/
+
+#sticky-container {
+    background:#303131;
+    padding: 1rem 1.5rem;
+   }
+  
+  .topbar-sticky-shrink {
+    padding: 2rem;
+    transition: padding 0.25s ease;
+    background: #303131;
+  }
+  
+  
+  #top-bar-sticky-logo {
+    color: #fefefe;
+    font: weight 50;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .topbar-sticky-shrink .menu {
+    background:#303131;
+    width: 100%;
+  } 
+
+  .is-stuck .topbar-sticky-shrink {
+    padding: 1rem;
+    transition: padding 0.25s ease;
+  }
+  
+  .top-bar ul  {
+     background:#303131;
+  }  
+  
+  .top-bar-right .menu a {
+    color: #fefefe;
+    transition: color 0.15s ease-in;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  .top-bar-right .menu a:hover {
+    color: #eb1008;
+  }
+  
+  
+  .title-bar {
+    background: #303131;
+  
+  }
+  
+  
+@media screen and (max-width: 39.9375em) {
+  .no-js .top-bar {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .no-js .title-bar {
+    display: none;
+  }
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+.sticky-container {
+  z-index: 5;
+}
+
+
 /*-------------------*/
 
- /*--------navbar start-------------*/
 
-.navbar {
-text-transform: uppercase;
-font-size: 14px;
-font-weight: 750;
-letter-spacing: 0.2rem;
-background: rgba(0, 0, 0, 0.6)!important;
-padding: 20px;
-}
-
-.navbar {
-	margin-bottom: 0;
-	border-radius: 0;
-  }
-
-.navbar-dark .navbar-nav .nav-link {
-	color: #fff;
-	padding-left: 20px;
-}
-
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
-color: #b12f2f;
-}
- /*--------navbar end------------------------------*/
  
 
   /*--------heading content start------------------------------*/
@@ -65,7 +115,7 @@ color: #b12f2f;
 .heading-content h1 {
 	font-size: 4em;
 	font-weight: bold;
-	color: rgb(204, 202, 202);
+	color: rgb(250, 243, 243);
     font-family: 'Montserrat', sans-serif;
 }
  /*--------heading content end------------------------------*/
@@ -106,7 +156,7 @@ color: #b12f2f;
 
 
 /*--------Portfoloier ------------*/
-/* 
+
 .portfolio-resume-scrolling-container {
 	height: 400px;
 	border: 1px solid #cacaca;
@@ -157,7 +207,7 @@ color: #b12f2f;
 	  height: 400px;
 	  overflow-y: auto;
 	}
-  } */
+  }
   
   
 
@@ -221,21 +271,7 @@ padding:40px;
 
 
 
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { device-aspect-ratio, device-width, device-height}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { height, width, grid, any hover }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { color,resolution }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { resolution,width } */
 
 
-/**--------Media Query---------*/
+
 
