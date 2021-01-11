@@ -13,48 +13,56 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous" />
     
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     
-    <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>About Me</title>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+  
+    
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <title>Portfolio Updated</title>
 
 </head>
 
-<body data-spy="sroll" data-target="#navbarResponsive">
+<body>
 
     <div id="home">
       </div>
   
-   <!-----navigation start--------->
+   <!-----navigation start--------->    
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                     <a class="navbar-brand" href="#">Wendy Figueroa</a> 
-                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                     <span class="navbar-toggler-icon"></span>
-                   </button>
-
-                  <div class="collapse navbar-collapse" id="#navbarResponsive">
-                    <ul class="navbar-nav ml-auto mt-2">
-                      <li class="nav-item ">
-                       <a class="nav-link" href="#">Home</a>
-                      </li>
-                       <li class="nav-item">
-                       <a class="nav-link" href="#about">About</a>
-                       </li>
-                       <li class="nav-item">
-                          <a class="nav-link" href="portfolio.html">Portfolio</a>
-                       </li>
-                        <li class="nav-item">
-                         <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-                     </ul>
-                  </div>
-            </nav>
+<div data-sticky-container>
+  <div id="sticky-container" class="top-bar" data-sticky data-options="marginTop:0;" style="width:100% ; height:80px">
+    <div class="top-bar-left">
+      <a id="top-bar-sticky-logo" class="top-bar-sticky-logo" href="#"><strong>Wendy Figueroa</strong></a>
+    </div>
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
+    <div class="top-bar-right" id="example-menu">
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div> 
 
     <!---------- End Nav ---------------------->
 
+
     <!-----Home--Roll page- 1 start------->
-        <section>
+    
 
           <div class="container-fluid ">
                 <img class="img-fluid " src="./assets/images/IMG_8393.jpg" alt="self photo">
@@ -65,22 +73,28 @@
               </div>
             </div>  
         
-        </section>            
+                 
+
+
       <!-- -------------------home Roll page end --------------->
+
+
+
       <!-- -------------------home Roll 2 page start ----------------------------->
-    <article> 
-        <div id="about" class="offset container"> 
-          <div class="row"> 
-              <div class="col-sm-12"> 
-              </div>
-          </div>
-              <br>
-          <div id="about" class="row text-center">
+      <div class="anchor" id="about-me"></div>
+      <div class="container mt-3 mt-5"> 
+        <div class="post-heading text-center">
+        <h1 class="display-4 font-weight-bold">About Me</h1>
+        <hr class="w-50 mx-auto pb-5">
+        </div>
+    
+        
+          <div class="row text-center">
             <div class="col-md-3"> 
-                <img src="./assets/images/IMG_8393.jpg" alt="about photo" >
+                <img src="./assets/images/selfimage.png" alt="about photo" >
                 </div>
                 <div class="col-md-9">
-                      <h2>About Me</h2>
+                    
                       <br>
                       <p>
                         Hi my name is Wendy, I couldn't be happier on where my life 
@@ -104,15 +118,174 @@
                 </div>
             </div>
         </div>
-      </article>
+     
+ <!-----------------------About me End------------------------------->
+
+
+  <!-- -------------------Resume start ----------------------------->
+
+  <div style="margin-bottom: 150px;"></div>
+
+  <div class="anchor2" id="resume"></div>
+  <div class="container mt-3 mt-5"> 
+    <div class="post-heading text-center">
+    <h1 class="display-4 font-weight-bold">Resume</h1>
+    <hr class="w-50 mx-auto pb-5">
+    </div>
       
-  
-       
- <!-- -------------------About--Roll- 2 page-- end --------------->
+  <div id="resume" class="portfolio-resume-scrolling-container grid-x">
+    <div class="cell small-12 medium-5 portfolio-resume-overview">
+      <div class="portfolio-resume-overview-content">
+        <h3 class="portfolio-resume-name">Wendy Figueroa</h3>
+        <p>I'm kind of awesome. No really.</p>
+        <a class="button primary expanded" href="#">Contact Me</a>
+      </div>
+    </div>
+    <div class="columns small-12 medium-7 portfolio-resume-scrolling">
+      <h3>SKILLS</h3>
+      <ul class="portfolio-resume-side-list">
+        <li>Foundation</li>
+        <li>Moar Foundation</li>
+        <li>SCSS</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+      </ul>
+      <h3>EXPERIENCE</h3>
+      <p>Look at all this amazing stuff that I've done!</p>
+      <ul>
+        <li>Just one damned thing</li>
+        <li>After another</li>
+        <li>Like history</li>
+        <li>One thing</li>
+        <li>After another</li>
+      </ul>
+      <h3>WORK</h3>
+      <p>I've done work too</p>
+      <ul>
+        <li>A Site</li>
+        <li>Another Site</li>
+      </ul>
+    </div>
+  </div>
+
+      
+ <!-- -------------------Resume end --------------->
+
+
+
+
+    <!-----------------------Portfolio images start--------------------------->
     
+
+    <div style="margin-bottom: 300px;"></div>
+
+    <div class="anchor2" id="portfolio"></div>
+  <div class="container mt-3 mt-5"> 
+      <div class="post-heading text-center">
+      <h1 class="display-4 font-weight-bold">Portfolio</h1>
+      <hr class="w-50 mx-auto pb-5">
+      </div>
+     <div class="row">
+         <div class="col-lg-4 col-md-6  col-12 pb-5">
+          <div class="card">
+            <img src="assets/images/giveback1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6  col-12 pb-5">
+          <div class="card">
+            <img src="assets/images/giveback1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6  col-12 pb-5">
+          <div class="card">
+            <img src="assets/images/giveback1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+     </div> 
+  </div>
+
+ <!-----------------------Portfolio end------------------------------->
+
+
+
+ <!-----------------------contact start------------------------------->
+
+ <div style="margin-bottom: 200px;"></div>
+
+ <div class="anchor2" id="Contact"></div>
+ <div class="container mt-5 mt-5"> 
+  <div class="post-heading text-center">
+  <h1 class="display-4 font-weight-bold">Contact</h1>
+  <hr class="w-50 mx-auto pb-5">
+  </div>
+
+  
+      <form action="/action_page.php">
+      <div class="form-group">
+        <label for="email">Name:</label>
+        <input type="text" class="form-control" id="email">
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" class="form-control" id="email">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Message:</label>
+      <textarea class="form-control"></textarea>
+      </div>
+      
+        <button type="submit" class="btn btn-secondary btn-md ">Send</button>
+        </form>
+    </div>
+  </div> 
+
+
+
+
+
+  <!-----middle break text --------------------------------->
+  <div style="margin-bottom: 100px;"></div>
+
+<div class="grid-x" style="text-align:center">
+  <div class="cell align-self-middle">
+    <div class="callout callout-hover-reveal"data-callout-hover-reveal>
+      <div class="callout-body">
+        <h2>Hover me</h2>
+        <p>I'll show you Bill Murray in the callout footer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----middle break text end  --------->
+
+
+
 
 
  <!---------footer start ------------->
+ <div style="margin-bottom: 200px;"></div>
 
   <footer class="container-fluid">
 
@@ -120,17 +293,35 @@
 
  <!-- footer end ---------------------->
 
+
+
+
+
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+
+  
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script
   src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
   integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
   crossorigin="anonymous"
   ></script>
+  
+  <!-- Compressed JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
 
+  <script src="./Assets/script.js"></script>
+  
+ <script>
+    $(document).foundation(); </script> 
+
+
+  
 </body>
 
 </html>
