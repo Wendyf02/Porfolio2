@@ -1,32 +1,43 @@
 Title-Updated Portfolio
 
-Installation:
+
 Technoly use :
 HTML
 CSS 
 Bootstrap
 Foundation
 
-Usage:
+
 Home & About
 Use Foundation -Navbar for header in all pages.
 Navbar is Responsibe.
 
-A scroll Portfolio -Home -About Me-Resume-Portfolio-Contact
-
-
-Images are in assets- ./assets/images
-css is in assets- ./assets/css
+A scroll Portfolio 
+-Home 
+-About Me
+-Resume- scroll though porfolio 
+-Portfolio
+-Contact
 
 Purpose
 A portfolio that provides information about me and showcases my work.
 
 
-
-Website
+Images are in assets- ./assets/images
+css is in assets- ./assets/css
 
 
 
 Screenshot
- ![GitHub](/assets/images/frontimage.png)
+ ![GitHub](/assets/images/portfolio1.png)
+
+ ![GitHub](/assets/images/portfolio2.png)
+
+ ![GitHub](/assets/images/portfolio3.png)
+
+ ![GitHub](/assets/images/portfolio4.png)
+
+![GitHub](/assets/images/portfolio5.png)
+
+
  
