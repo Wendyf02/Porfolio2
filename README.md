@@ -34,8 +34,14 @@ Screenshot
  ![GitHub](/assets/images/portfolio2.png)
 
  ![GitHub](/assets/images/portfolio3.png)
+ 
 
  ![GitHub](/assets/images/portfolio4.png)
+ technologies use in projects
+ -Code Quiz 1 -use HTML,CSS and JavaScript.
+ -Work Day Scheduler 2 -use HTML, CSS and Jquery.
+ -Project-Give-Back 3 -use New wireframe Foundation, Adobe Illustrator ,Adobe Photoshop, Swiper 3D , Google Maps API AND rAPID api
+
 
 ![GitHub](/assets/images/portfolio5.png)
 
