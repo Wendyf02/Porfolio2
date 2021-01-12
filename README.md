@@ -9,16 +9,24 @@ Foundation
 
 Usage:
 Home & About
-Use Bootstrap -Navbar for header in all pages.
+Use Foundation -Navbar for header in all pages.
 Navbar is Responsibe.
-Use data-spy="scroll"-in Body for Home & About page.
-Home & About page is scroll.
-Use in Home and About page Fluid-image.
+
+A scroll Portfolio -Home -About Me-Resume-Portfolio-Contact
+
 
 Images are in assets- ./assets/images
 css is in assets- ./assets/css
 
+Purpose
+A portfolio that provides information about me and showcases my work.
 
-A scroll Portfolio -Home -About Me-Resume-Portfolio-Contact
 
-Screenshot ![GitHub](assets/image/homeimage.png)
+
+Website
+
+
+
+Screenshot
+ ![GitHub](/assets/images/frontimage.png)
+ 
