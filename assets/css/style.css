@@ -121,8 +121,6 @@ body {
  /*--------heading content end------------------------------*/
 
 
-
-
 /*--------about start-------------*/
 
 #about {
@@ -166,7 +164,7 @@ body {
 /*--------Portfoloier ------------*/
 
 .anchor3 {
-	height:550px;
+	height:180px;
 	visibility: hidden;	
 }
 
@@ -199,7 +197,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("/assets/images/Benny1.jpg");
+	background-image: url("../images/Benny1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.3;
@@ -223,11 +221,11 @@ body {
 	}
 }
   
- 
 /*--------Portfoloier end------------*/
 
 
 /*--------contact start-----------------*/
+
 .anchor4 {
 	height: 100px;
 	visibility: hidden;
@@ -248,6 +246,11 @@ h1 {
 .callout-hover-reveal .callout-footer {
     display: none;
 } 
+
+.notedotul {
+	list-style-type: none;
+}
+
 /*------middle end-------------------------*/
 
 
@@ -258,7 +261,6 @@ background-color: #303131;
 padding:40px;
 
 }
-
   
 a {
     color: #d21034;
@@ -267,8 +269,14 @@ a {
 /*--------footer end-------------------*/
 
 
+/*-------media query---------*/
+@media only screen and (max-width: 600px) {
+	.anchor3 {
+		height:550px;
+		visibility: hidden;	
+	} 
+  }
 
 
-
-
+/*-------media query end ---------*/
 

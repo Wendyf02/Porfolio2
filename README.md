@@ -18,8 +18,8 @@ A scroll Portfolio
 -Resume- scroll though porfolio    
 -Portfolio   
 -Contact   
-Images are in ./assets/images    
-css is in ./assets/css    
+Images are in assets/images    
+css is in assets/css    
 
 Contact:   
 GitHub:
