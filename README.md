@@ -28,8 +28,8 @@ GitHub:
 Screenshot    
 ![GitHub](assets/images/portfolio1.png)       
 ![GitHub](assets/images/portfolio2.png)   
-![GitHub](assets/images/portfolio3.png)   
-![GitHub](assets/images/portfolio4.png)   
+![GitHub](assets/images/resume.png)   
+![GitHub](assets/images/portfoliorevise1.png)   
 
  technologies use in projects
 
@@ -43,7 +43,7 @@ use HTML, CSS and Jquery
 use New wireframe Foundation, Adobe Illustrator    
 ,Adobe Photoshop, Swiper 3D, Google Maps API AND RAPID API   
 
-![GitHub](assets/images/portfolio5.png)
+![GitHub](assets/images/contact2.png)
 
 
  
