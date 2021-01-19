@@ -22,7 +22,8 @@ Images are in assets/images
 css is in assets/css    
 
 Contact:   
-GitHub:
+email:camomila444@gmail.com   
+GitHub:https://wendyf02.github.io/Porfolio2/
 
 
 Screenshot    
