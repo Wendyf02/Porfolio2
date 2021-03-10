@@ -28,22 +28,12 @@ GitHub:https://wendyf02.github.io/Porfolio2/
 
 Screenshot    
 ![GitHub](assets/images/portfolio1.png)       
-![GitHub](assets/images/portfolio2.png)   
-![GitHub](assets/images/resume.png)   
-![GitHub](assets/images/portfoliorevise1.png)   
+<!-- ![GitHub](assets/images/portfolio2.png)   
+![GitHub](assets/images/resume.png)    -->
 
- technologies use in projects
-
- *Code Quiz 1   
-use HTML,CSS and JavaScript      
-
- *Work Day Scheduler 2   
-use HTML, CSS and Jquery   
-
- *Project-Give-Back 3   
-use New wireframe Foundation, Adobe Illustrator    
-,Adobe Photoshop, Swiper 3D, Google Maps API AND RAPID API   
-
+![GitHub](assets/images/portfoliorevise1.png) 
+![GitHub](assets/images/portfolio22.png) 
+  
 ![GitHub](assets/images/contact2.png)
 
 
